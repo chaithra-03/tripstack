@@ -1,8 +1,33 @@
-# Playwright
-node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js / Playwright
+playwright/node_modules/
+playwright/test-results/
+playwright/playwright-report/
+playwright/blob-report/
+playwright/allure-results/
+playwright/.cache/
+playwright/.auth/
+playwright/.last-run.json
+playwright/*.log
+
+# Java / Maven
+restAssured/target/
+restAssured/.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# IDE settings
+.idea/
+*.iml
+.vscode/
+
+# Logs and operating-system files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
  
