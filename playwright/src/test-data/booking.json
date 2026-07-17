@@ -1,0 +1,6 @@
+{
+  "expected": {
+    "status": "CONFIRMED",
+    "pnrPrefix": "TS-"
+  }
+}

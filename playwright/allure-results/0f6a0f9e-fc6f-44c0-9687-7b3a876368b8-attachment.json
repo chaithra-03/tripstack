@@ -1,0 +1,33 @@
+{
+  "inputs": {
+    "login": {
+      "email": "[REDACTED]",
+      "password": "[REDACTED]"
+    },
+    "journey": {
+      "from": "DEL",
+      "to": "BOM",
+      "date": "2026-08-04"
+    },
+    "passenger": {
+      "firstName": "Chaithra",
+      "lastName": "Chandran",
+      "age": "24",
+      "gender": "Female",
+      "email": "[REDACTED]",
+      "phoneNumber": "[REDACTED]"
+    },
+    "payment": {
+      "name": "Chaithra Chandran",
+      "number": "[REDACTED]",
+      "expiry": "[REDACTED]",
+      "cvv": "[REDACTED]"
+    }
+  },
+  "expected": {
+    "bookingStatus": "Confirmed"
+  },
+  "actual": {
+    "bookingStatus": "Confirmed"
+  }
+}

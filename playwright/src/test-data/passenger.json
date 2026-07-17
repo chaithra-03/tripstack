@@ -1,0 +1,10 @@
+{
+  "passenger": {
+    "firstName": "Chaithra",
+    "lastName": "Chandran",
+    "age": "24",
+    "gender": "Female",
+    "email": "frank@tripstack.test",
+    "phoneNumber": "9876543210"
+  }
+}
