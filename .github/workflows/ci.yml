@@ -45,6 +45,10 @@ jobs:
   api-tests:
     name: API tests
     runs-on: ubuntu-latest
+    env:
+      DB_URL: ${{ secrets.DB_URL }}
+      DB_USERNAME: ${{ secrets.DB_USERNAME }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
     defaults:
       run:
         working-directory: restAssured
@@ -95,6 +99,10 @@ jobs:
   security-tests:
     name: BOLA test and OWASP ZAP scan
     runs-on: ubuntu-latest
+    env:
+      DB_URL: ${{ secrets.DB_URL }}
+      DB_USERNAME: ${{ secrets.DB_USERNAME }}
+      DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
     defaults:
       run:
         working-directory: restAssured
