@@ -44,6 +44,6 @@ test.only("amazon", async({page}) =>{
     await page.waitForTimeout(10000);
 })
 
-test("check", async({page}) =>{
+test.only("check", async({page}) =>{
     await page.goto("https://www.amazon.in/Minimalist-Regulation-Sulfate-Free-Exfoliation-Combination/dp/B0D3WX7G3H/ref=sr_1_6?crid=3RB8QKX2OBYIL&dib=eyJ2IjoiMSJ9.fsH1R7LGQ3BHFxrfUmOep9GRvcFk1pGUPZTukSwYr2Hudlvy3lsD4HjnCYXBtdKAm7A46vbZr_Aq0B_VRlLRb-42H7JqdZ9hGJC7Yxj5c4le88HBDbwGa5AyO1VGpf-fzS2Kxx6hbNLKzJ5KET-h8CuH0VFXgL31XH71QT71z6AvEI5bsyMG7lxtItH46BTZXhSMrX9Ma0Kp5uJCIERuGxEN_tz3_B4IOp4Ml5mUXBrdo6Ydn0rgbjQQnhrB2QvcGdACclvTCKEZqjMt4h3OZOPoFwmfkGdJOtjK6wXWvdE.tEIeXjTrtwssVkhE3IwLH6MTVuT9pxFA_FvsIN4JrkE&dib_tag=se&keywords=minimalist%2Bsalicylic%2Bacid%2Bfacewash&qid=1784558138&sprefix=minimalist%2Bsalicylic%2Bacid%2Bfacewash%2Caps%2C636&sr=8-6&th=1");
 })
